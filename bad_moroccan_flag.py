@@ -1,0 +1,32 @@
+import turtle
+resnick = turtle.Turtle()
+
+resnick.right(180)
+resnick.up()
+resnick.forward(50)
+resnick.begin_fill()
+
+resnick.color("Red")
+resnick.right(90)
+resnick.down()
+resnick.forward(75)
+resnick.right(90)
+resnick.forward(200)
+resnick.right(90)
+resnick.forward(175)
+resnick.right(90)
+resnick.forward(200)
+resnick.right(90)
+resnick.forward(175-75)
+resnick.fillcolor("Red")
+resnick.end_fill()
+
+resnick.up()
+resnick.right(90)
+resnick.forward(50)
+resnick.down()
+resnick.pensize(5)
+resnick.color("DarkGreen")
+for _ in range(5):
+resnick.forward(100)
+resnick.right(180-36)
